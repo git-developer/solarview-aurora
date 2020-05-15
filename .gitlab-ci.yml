@@ -1,0 +1,8 @@
+include:
+  remote: 'https://github.com/git-developer/solarview-base/raw/v1.3.0/.gitlab-ci.yml'
+
+variables:
+  DOCKERFILE_URL: 'https://github.com/git-developer/solarview-base/raw/v1.3.0/Dockerfile'
+  BUILD_ARGS: 'APP_NAME=aurora-fb'
+  IMAGE_TITLE: 'SolarView Aurora-Proxy'
+  UPDATE_CHECK_URLS: 'http://www.solarview.info/downloads/aurora-fb.zip'
